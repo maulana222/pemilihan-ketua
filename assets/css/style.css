@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+ body {
+   background-color: aliceblue;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .container {
+    max-width: 80%;
+    margin: auto;
+ }
+ .card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px 30px  ;
+    max-width: max-content;
+    margin: auto;
+ }
+ .center {
+   text-align: center;
+ }
+
+ input,select {
+  padding: 15px 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+.btn {
+  margin-top: 10px;
+  width: 100%;
+  padding:10px 15px;
+ }
+ .login-form {
+  width: 300px;
+ }
+ .form {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px 30px  ;
+    max-width: 400px;
+    margin: auto;
+ }
+ table {
+  border-collapse: collapse;
+  width: 100%;
+}
+tr,th, td {
+  padding: 15px 20px;
+  border: 1px solid black;
+}
+button {
+  padding: 10px;
+  /* margin-left: 40; */
+  margin-bottom: 10px;
+}
+.tbn-float-right {
+  float: right;
+}
+.tbn-float-left {
+ margin: auto;
+ margin-top: 10px;
+}
+a {
+  text-decoration: none;
+  color: rgb(18, 18, 18);
+}
+.card-candidat {
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px 10px;
+
+}
+.form-lg {
+  max-width: 1000px;
+}
+.form-big {
+  max-width: 1500px;
+}
+.grid {
+  display: grid;
+
+  gap: 10px;
+  grid-template-columns: auto auto;
+}
+.grid-candidat {
+  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+}
+.small-text {
+  font-size: 12px;
+}
+.big-text {
+ font-size: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+.form {
+  background-color: white;
+    border-radius: 8px;
+    padding: 20px 30px  ;
+    margin: auto;
+}
+.top-sm {
+  margin-top: 10px;
+}
+.gap20 {
+  column-gap: 50px;
+}
+.gap10 {
+  column-gap: 25px;
+}
+.flex {
+  display: flex;
+}
+.header-card img {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+}
+.kd {
+  display: flex;
+  flex-direction: column;
+}
+.cd-kd {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px 30px  ;
+  margin-top: 10px;
+}
+.ct-kd {
+  padding-left: 20px;
+}
+
+        /* Gaya khusus untuk halaman cetakan */
+        @media print {
+          /* Semua elemen kecuali tombol cetak disembunyikan */
+          .print {
+              visibility: hidden;
+          }
+
+          /* Hanya elemen dengan kelas 'print-content' yang ditampilkan */
+          .print-content {
+              visibility: visible;
+          }
+
+        
+      }
